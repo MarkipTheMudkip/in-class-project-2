@@ -1,0 +1,121 @@
+/* Universals Section */
+.text-center {
+    text-align: center;
+}
+
+body {
+    box-sizing: border-box;
+}
+/* header section begins here */
+header {
+    background-color: #e40007;
+}
+
+header img{
+    height: 50px;
+}
+
+nav{
+     float: right;
+     position:relative;
+    top:0px;
+    bottom:15px;
+    left:20px;
+    right:20px;
+}
+    
+nav>ul {
+    list-style-type: none;
+}
+
+nav>ul>li {
+    display: inline;
+    border:2px solid #40007;
+    padding:0px 20px 0px 20px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+nav>ul>li>a {
+    color:#fff;
+    text-decoration:none;
+}
+
+nav>ul>li>:hover{
+    cursor: pointer;
+}
+
+nav>ul>li>a:hover {
+    color:#000;
+    background-color:green;
+}
+
+/* HERO SECTION BEGINS HERE */
+
+.hero {
+    background-image:url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top:175px;
+    height:400px;
+    margin:0px;
+    color:#00ffff;
+    text-align:center;
+}
+
+/* Sidebar Section*/
+aside {
+    background-color: #000066;
+    border:2px solid #fff;
+    width:30%;
+    height:300px;
+    float: left;
+    box-sizing: border-box;
+}
+
+aside>ul {
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+    text-align:center;
+    padding:30px 0px;
+}
+
+aside>ul>li:hover {
+    background-color:#ffff00;
+    border:1px dotted #000;
+}
+
+aside>ul>li:hover a {
+    color:#000066;
+    font-weight:700;
+}    
+
+aside>ul>li>a {
+    text-decoration:none;
+    color:#fff;
+}    
+
+main {
+    float: right;
+    width:70%;
+    padding:0px 15px;
+    box-sizing: border-box;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    height: 120px;
+    background-color: #98fb98;
+    clear: both;
+}
+
+.social-media {
+    text-align:center;
+    padding-top:20px;
+}
+
+.social-media .fa {
+    color:#fff;
+    font-size:20px;
+}
