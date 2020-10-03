@@ -55,8 +55,8 @@ nav>ul>li>a:hover {
     background-image:url(../img/hero.jpg);
     background-size: cover;
     background-position: center;
-    padding-top:175px;
-    height:400px;
+    padding-top:10px;
+    height:550px;
     margin:0px;
     color:#00ffff;
     text-align:center;
